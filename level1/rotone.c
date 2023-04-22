@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <unistd.h>
 
-void root_13(char *str)
+void rotone(char *str)
 {
 	char *out = str;
 	int c = 0;
@@ -37,7 +37,7 @@ void root_13(char *str)
 int main(int ac, char **av)
 {
 	if(ac == 2)
-		root_13(av[1]);
+		rotone(av[1]);
 	write(1, "\n", 1);
 	return(0);
 }
